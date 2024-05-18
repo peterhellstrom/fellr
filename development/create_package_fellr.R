@@ -40,7 +40,7 @@ usethis::use_build_ignore(c("backup", "data-raw", "development", "examples"))
 install_github("peterhellstrom/sweapi")
 
 ## Load package ----
-library(sweapi)
+library(fellr)
 
 ## Data sets ----
 usethis::use_data_raw()
