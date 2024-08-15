@@ -13,7 +13,6 @@ load_all()
 
 # Must run document() to add export functions to NAMESPACE
 document()
-install()
 
 chk_pkg <- check()
 glimpse(chk_pkg)
@@ -60,7 +59,9 @@ usethis::use_build_ignore(c("backup", "data-raw", "development", "examples"))
 # Document data:
 # https://r-pkgs.org/data.html
 
-install_github("peterhellstrom/sweapi")
+# Install ----
+install()
+# install_github("peterhellstrom/fellr")
 
 ## Load package ----
 library(fellr)
