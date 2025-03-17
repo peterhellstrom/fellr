@@ -18,7 +18,7 @@
 #' @param deleted
 #' @param log_table_name
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -176,7 +176,7 @@ execute_db_updates <- function(
 #' @param deleted
 #' @param log_table_name
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -295,7 +295,7 @@ execute_db_updates_memory <- function(
 #' @param ...
 #' @param n
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples

@@ -7,7 +7,7 @@
 #' @param first_appearance
 #' @param append
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -36,7 +36,7 @@ create_initial_data <- function(
 #' @param index_name
 #' @param index_field
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -65,7 +65,7 @@ create_index <- function(dsn, layer, index_name, index_field) {
 #' @param dsn
 #' @param log_table_name
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -111,7 +111,7 @@ create_log_table <- function(dsn, log_table_name = "log_data") {
 #' @param log_table_name
 #' @param unlink
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples

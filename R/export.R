@@ -6,7 +6,7 @@
 #' @param download_dir
 #' @param output_file
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -19,7 +19,7 @@ tmp_export_from_gpkg <- function(
   
   # Read from GeoPackage
   # This step - is it necessary?
-  f_tmp <- sf::st_read(
+  f_tmp <- sf::read_sf(
     stringr::str_c(dsn, ".gpkg"),
     layer = glue::glue("{layer_prefix}_{layer_suffix}")
   )

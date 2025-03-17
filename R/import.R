@@ -7,7 +7,7 @@
 #' @param new_layer_name
 #' @param new_layer_type
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples

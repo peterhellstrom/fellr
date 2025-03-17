@@ -5,7 +5,7 @@
 #' @param datetime_format
 #' @param string_format
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples

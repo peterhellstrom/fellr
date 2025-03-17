@@ -3,7 +3,7 @@
 #' @param dsn
 #' @param table_name
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -39,7 +39,7 @@ sks_log_table <- function(
 #' @param tz
 #' @param drop_na
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
@@ -92,7 +92,7 @@ list_files_compare <- function(
 #' @param log_table_name
 #' @param ...
 #'
-#' @return
+#' @returns
 #' @export
 #'
 #' @examples
