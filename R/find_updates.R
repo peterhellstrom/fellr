@@ -9,7 +9,8 @@
 #' @examples
 sks_log_table <- function(
     dsn,
-    table_name = "log_data") {
+    table_name = "log_data"
+) {
 
   con <- DBI::dbConnect(RSQLite::SQLite(), dsn)
 

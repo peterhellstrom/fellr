@@ -1,6 +1,17 @@
 utils::globalVariables(".data")
 
+
+#' Title
+#'
+#' @param Beteckn
+#' @param pattern
+#' @param pad
+#' @param width
+#'
+#' @returns
 #' @export
+#'
+#' @examples
 pad_avverk_beteckn <- function(
     Beteckn,
     pattern = " ([0-9]{1,5})\\-",

@@ -61,6 +61,7 @@ usethis::use_build_ignore(c("backup", "data-raw", "development", "examples"))
 
 # Install ----
 install()
+
 # install_github("peterhellstrom/fellr")
 
 ## Load package ----
